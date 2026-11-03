@@ -8,7 +8,7 @@
 
 I’m a dual-master’s student in Computer Science and Data Science & Engineering at the University of Illinois Chicago and Politecnico di Torino. I work across statistical analysis, machine learning, and applied AI, with a particular interest in building rigorous systems that hold up in real-world settings.
 
-I’m currently an AI Research Intern at Pirouette Software, studying hardware signals produced during LLM inference. Previously, as a Data Science Intern at MEC, I analyzed more than 500,000 operational records, built Apache Airflow ETL pipelines, and created SQL dashboards for decision support.
+I’m currently a Data Science & Gen AI Intern at Schnuck Markets, building AI-enabled analytics tools for internal use. The code and implementation are company property, so I can’t publish them here, but I’m happy to share a high-level overview of the work. Previously, I was an AI/ML Research Intern at Pirouette Software, studying hardware signals produced during LLM inference. At MEC, I analyzed more than 500,000 operational records, built Apache Airflow ETL pipelines, and created SQL dashboards for decision support.
 
 ## Selected work
 
