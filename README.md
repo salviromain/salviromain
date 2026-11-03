@@ -20,7 +20,7 @@ This research was part of my AI/ML Research Internship at Pirouette Software. We
 
 ### 2. [Does Empathetic AI Language Cause User Attachment?](https://github.com/salviromain/llm-empathy-causal-study) 💬
 
-A causal-inference study asking whether more empathetic chatbot responses increase users’ immediate emotional attachment. The project develops a matching strategy around prompt meaning and conversation context, and considers model differences and potential mediating mechanisms.
+A causal-inference study asking whether more empathetic chatbot responses increase users’ immediate emotional attachment. The project develops a matching strategy around prompt meaning and conversation context, and considers model differences and potential mediating mechanisms. Across semantic-matching and doubly robust analyses, the estimated average effect was +0.73–0.77 points on the 1–7 attachment-score scale, with estimated effects varying across users.
 
 **Focus:** causal inference · LLM evaluation · semantic matching · research design
 
@@ -32,13 +32,13 @@ An end-to-end pipeline for reducing sycophantic model behavior through supervise
 
 ### 4. [Speaker Age Estimation](https://github.com/salviromain/Age-Estimation-Regression) 🎙️
 
-A predictive modeling project estimating a speaker’s age from data. The project placed in the top two out of 200 students in the course leaderboard.
+A predictive modeling project estimating a speaker’s age from data. A Ridge model achieved a public evaluation RMSE of 9.056; the report describes the result as among the best. The project placed in the top two out of 200 students in the course leaderboard.
 
 **Focus:** regression · feature engineering · predictive modeling
 
 ### 5. [Spectral Clustering](https://github.com/salviromain/Spectral-Clustering) 🔎
 
-An interactive MATLAB application comparing clustering methods across high-dimensional, nonlinear datasets.
+An interactive MATLAB application comparing clustering methods across high-dimensional, nonlinear datasets. On the modified Iris dataset, normalized-Laplacian spectral clustering achieved an ARI of 0.77; K-means with k=3 achieved 0.73.
 
 **Focus:** unsupervised learning · spectral methods · MATLAB · computational algebra
 
