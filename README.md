@@ -32,7 +32,7 @@ An end-to-end pipeline for reducing sycophantic model behavior through supervise
 
 ### 4. [Speaker Age Estimation](https://github.com/salviromain/Age-Estimation-Regression) 🎙️
 
-A predictive modeling project estimating a speaker’s age from data. A Ridge model achieved a public evaluation RMSE of 9.056; the report describes the result as among the best. The project placed in the top two out of 200 students in the course leaderboard.
+A predictive modeling project estimating a speaker’s age from data. My Ridge model achieved a public evaluation RMSE of 9.056, placing among the best results. I placed in the top two out of 200 students in the course leaderboard.
 
 **Focus:** regression · feature engineering · predictive modeling
 
