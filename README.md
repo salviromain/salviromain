@@ -14,7 +14,7 @@ I’m currently a Data Science & Gen AI Intern at Schnuck Markets, building AI-e
 
 ### 1. [Discovering Machine Correlates of Consciousness](https://github.com/salviromain/mccviahat) 🧠
 
-An experimental study of whether hardware traces differ when LLMs process emotionally charged versus neutral prompts. The project measures hardware performance signals during inference and tests for differences while accounting for workload and thermal confounds. In the current analysis, several power-throttle features for Llama 3.1 70B were significant after Bonferroni correction; the 7B results were not distinguishable from chance. The paper has been submitted to AGI 2026.
+This research was part of my AI/ML Research Internship at Pirouette Software. We studied whether hardware anomaly traces from LLM inference differ between emotional and neutral prompts, while controlling for workload and thermal confounds. In our experiments, several power-throttle features for Llama 3.1 70B were statistically significant after Bonferroni correction; results for Llama 2 7B were not distinguishable from chance. The work was published in the AGI 2026 proceedings in Springer’s Lecture Notes in Artificial Intelligence (LNAI), volume 16855, pages 237–255. [Read the paper on arXiv](https://arxiv.org/abs/2608.28824).
 
 **Focus:** LLM systems · experimental design · statistical analysis · Linux performance counters
 
