@@ -10,6 +10,22 @@ I’m a dual-master’s student in Computer Science and Data Science & Engineeri
 
 I’m currently a Data Science & Gen AI Intern at Schnuck Markets, building AI-enabled analytics tools for internal use. The code and implementation are company property, so I can’t publish them here, but I’m happy to share a high-level overview of the work. Previously, I was an AI/ML Research Intern at Pirouette Software, studying hardware signals produced during LLM inference. At MEC, I analyzed more than 500,000 operational records, built Apache Airflow ETL pipelines, and created SQL dashboards for decision support.
 
+## Work at Schnuck Markets 🛒
+
+As a Data Science & Gen AI Intern, I designed, built, deployed, and operate two internal AI systems. The source code and company data are confidential, so I share the work at a high level.
+
+### Conversational Analytics Agent — Asset Protection
+
+I built a conversational agent that lets Asset Protection analysts ask questions about point-of-sale exceptions in plain English. In October 2026, it became the company’s most-used agent in Gemini Enterprise, with **18 distinct users and 219 sessions**. It queries BigQuery data refreshed every 15 minutes, replacing a third-party platform with a one-day delay. The BigQuery views I created also power the Asset Protection team’s Domo dashboard. I validated the agent against 40 stakeholder questions, improving from 35/40 correct with standard wording to 40/40 after teaching it team-specific terminology. Query costs fell by more than 90%, from about $1 to under $0.10.
+
+**Tools:** Python · Google ADK · Vertex AI · Gemini Enterprise · BigQuery · SQL · Domo · Google Sheets API
+
+### Automated Ad-Proofing Workflow — Marketing
+
+I built an automated workflow to proof **30 weekly ad PDFs** against ground-truth data. It reduced an estimated 100+ hours of manual proofing to about one hour per week, at approximately **$3/week** in API costs. In testing, it caught all 33 planted price and size errors across seven PDFs. I’m now expanding the workflow to cover more ad types.
+
+**Tools:** Python · Google Cloud scheduled notebooks · Pydantic · LLM APIs · Google Drive and Sheets APIs · email automation
+
 ## Selected work
 
 ### 1. [Discovering Machine Correlates of Consciousness](https://github.com/salviromain/mccviahat) 🧠
