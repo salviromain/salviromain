@@ -16,13 +16,13 @@ As a Data Science & Gen AI Intern, I designed, built, deployed, and operate two 
 
 ### Conversational Analytics Agent — Asset Protection
 
-I built a conversational agent that lets Asset Protection analysts ask questions about point-of-sale exceptions in plain English. In October 2026, it became the company’s most-used agent in Gemini Enterprise, with **18 distinct users and 219 sessions**. It queries BigQuery data refreshed every 15 minutes, replacing a third-party platform with a one-day delay. The BigQuery views I created also power the Asset Protection team’s Domo dashboard. I validated the agent against 40 stakeholder questions, improving from 35/40 correct with standard wording to 40/40 after teaching it team-specific terminology. Query costs fell by more than 90%, from about $1 to under $0.10.
+I built a conversational agent that lets Asset Protection analysts ask questions about point-of-sale exceptions in plain English. In October 2026, it became the company’s most-used agent in Gemini Enterprise, with **18 distinct users and 219 sessions**. It queries BigQuery data refreshed every 15 minutes, replacing a third-party platform with a one-day delay. The BigQuery views I created also power the Asset Protection team’s Domo dashboard. I added a SELECT-only SQL guardrail to keep queries read-only. I validated the agent against 40 stakeholder questions, improving from 35/40 correct with standard wording to 40/40 after teaching it team-specific terminology. Query costs fell by more than 90%, from about $1 to under $0.10. I also led adoption meetings with the Asset Protection stakeholders.
 
 **Tools:** Python · Google ADK · Vertex AI · Gemini Enterprise · BigQuery · SQL · Domo · Google Sheets API
 
 ### Automated Ad-Proofing Workflow — Marketing
 
-I built an automated workflow to proof **30 weekly ad PDFs** against ground-truth data. It reduced an estimated 100+ hours of manual proofing to about one hour per week, at approximately **$3/week** in API costs. In testing, it caught all 33 planted price and size errors across seven PDFs. I’m now expanding the workflow to cover more ad types.
+I built an automated workflow to proof **30 weekly ad PDFs** against ground-truth data. It reduced an estimated 100+ hours of manual proofing to about one hour per week, at approximately **$3/week** in API costs. In testing, it caught all 33 planted price and size errors across seven PDFs. I’m now expanding the workflow to cover more ad types. I also led adoption meetings with the Marketing stakeholders.
 
 **Tools:** Python · Google Cloud scheduled notebooks · Pydantic · LLM APIs · Google Drive and Sheets APIs · email automation
 
