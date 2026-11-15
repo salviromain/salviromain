@@ -4,11 +4,11 @@
   📍 Chicago, IL · <a href="https://www.linkedin.com/in/romain-salvi-dsml/">LinkedIn</a> · <a href="https://github.com/salviromain">GitHub</a>
 </p>
 
-## Start here
+## About Myself
 
 I build practical AI and data science systems, from LLM-powered analytics in retail to causal studies of human-AI interaction and research on LLM inference. I’m completing dual master’s degrees in Computer Science and Data Science & Engineering at the University of Illinois Chicago and Politecnico di Torino.
 
-### Selected impact
+### Brief Intro of Projects
 
 - **Schnuck Markets · Conversational analytics:** built the company’s most-used Gemini Enterprise agent in October 2026 (**18 users, 219 sessions**) over billions of point-of-sale rows; reduced query costs by **more than 90%**.
 - **Schnuck Markets · Ad proofing:** automated a **100+ hour** weekly manual process to about **one hour** for 30 PDFs, at roughly **$3/week** in API costs.
