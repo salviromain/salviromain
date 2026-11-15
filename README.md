@@ -12,7 +12,7 @@ I build practical AI and data science systems, from LLM-powered analytics in ret
 
 - **Schnuck Markets · Conversational analytics:** built the company’s most-used Gemini Enterprise agent in October 2026 (**18 users, 219 sessions**) over billions of point-of-sale rows; reduced query costs by **more than 90%**.
 - **Schnuck Markets · Ad proofing:** automated a **100+ hour** weekly manual process to about **one hour** for 30 PDFs, at roughly **$3/week** in API costs.
-- **Published research · MCC:** co-authored work published in the **AGI 2026 proceedings** (Springer LNAI 16855).
+- **Published research · Pirouette Software · MCC:** co-authored work published in the **AGI 2026 proceedings** (Springer LNAI 16855).
 - **Causal inference · Empathetic AI:** estimated a **+0.73–0.77 point** average effect on a 1–7 attachment scale, with effects varying across users.
 - **Applied ML · Age estimation:** finished **top 2 of 200** students in the course leaderboard.
 
