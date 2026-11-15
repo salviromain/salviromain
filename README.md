@@ -30,9 +30,6 @@ I built an automated workflow to proof **30 weekly ad PDFs** against ground-trut
 
 > Schnuck Markets source code, data, and implementation details are company property, so I share this work only at a high level.
 
-<details>
-<summary>Research and project details</summary>
-
 ### 3. [Discovering Machine Correlates of Consciousness](https://github.com/salviromain/mccviahat) 🧠
 This research was part of my AI/ML Research Internship at Pirouette Software. We studied whether hardware anomaly traces from LLM inference differ between emotional and neutral prompts, while controlling for workload and thermal confounds. In our experiments, several power-throttle features for Llama 3.1 70B were statistically significant after Bonferroni correction; results for Llama 2 7B were not distinguishable from chance. The work was published in the AGI 2026 proceedings in Springer’s Lecture Notes in Artificial Intelligence (LNAI), volume 16855, pages 237–255. [Read the paper on arXiv](https://arxiv.org/abs/2608.28824).
 
@@ -62,8 +59,6 @@ An interactive MATLAB application comparing clustering methods across high-dimen
 
 **Focus:** unsupervised learning · spectral methods · MATLAB · computational algebra  
 **Tools:** MATLAB App Designer · `eigs` · inverse power method · deflation · DBSCAN · K-means
-
-</details>
 
 ## Experience
 
