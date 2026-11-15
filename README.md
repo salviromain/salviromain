@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Romain Salvi 👋</h1>
+<h1 align="center">Hi, I'm Romain 👋</h1>
 <p align="center">
   <strong>Data Scientist & AI Engineer · LLM Systems · Causal Inference · Scalable Analytics</strong><br>
   📍 Chicago, IL · <a href="https://www.linkedin.com/in/romain-salvi-dsml/">LinkedIn</a> · <a href="https://github.com/salviromain">GitHub</a>
