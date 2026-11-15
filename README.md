@@ -8,7 +8,7 @@
 
 I build practical AI and data science systems, from LLM-powered analytics in retail to causal studies of human-AI interaction and research on LLM inference. I’m completing dual master’s degrees in Computer Science and Data Science & Engineering at the University of Illinois Chicago and Politecnico di Torino.
 
-### Brief Intro of Projects
+### Brief Project Intros
 
 - **Schnuck Markets · Conversational analytics:** built the company’s most-used Gemini Enterprise agent in October 2026 (**18 users, 219 sessions**) over billions of point-of-sale rows; reduced query costs by **more than 90%**.
 - **Schnuck Markets · Ad proofing:** automated a **100+ hour** weekly manual process to about **one hour** for 30 PDFs, at roughly **$3/week** in API costs.
@@ -64,13 +64,13 @@ An interactive MATLAB application comparing clustering methods across high-dimen
 
 - **Data Science & Gen AI Intern · Schnuck Markets** — building internal AI-enabled analytics tools.
 - **AI/ML Research Intern · Pirouette Software** — studied hardware signals produced during LLM inference.
-- **Data Science · MEC** — analyzed 500,000+ operational records, built Apache Airflow ETL pipelines, and created SQL dashboards.
+- **Data Science · MEC** — analyzed 500,000+ operational records, built Apache Airflow ETL pipelines, and created SQL-powered dashboards.
 
 ## Toolbox 🧰
 
 **Languages:** Python · SQL · MATLAB · Java · JavaScript  
 **Data & ML:** PyTorch · scikit-learn · pandas · NumPy · EconML  
-**Engineering:** Apache Airflow · Docker · Linux · Git · Apache Spark
+**Engineering:** Apache Airflow · Docker · Linux · Git · Apache Spark · Hadoop
 
 ## Connect 🤝
 
