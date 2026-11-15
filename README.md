@@ -69,8 +69,10 @@ An interactive MATLAB application comparing clustering methods across high-dimen
 ## Toolbox 🧰
 
 **Languages:** Python · SQL · MATLAB · Java · JavaScript  
-**Data & ML:** PyTorch · scikit-learn · pandas · NumPy · EconML  
-**Engineering:** Apache Airflow · Docker · Linux · Git · Apache Spark · Hadoop
+**AI & ML:** Vertex AI · Google ADK · Gemini Enterprise · PyTorch · scikit-learn · pandas · NumPy · EconML  
+**Data & Cloud:** Google Cloud Platform (GCP) · BigQuery · Apache Spark · Hadoop · Domo  
+**APIs & Automation:** REST APIs · Google Sheets API · Google Drive API · Model Context Protocol (MCP) · scheduled GCP runs · Google Apps Script  
+**Development:** Jupyter · Pydantic · Apache Airflow · Docker · Linux · Git
 
 ## Connect 🤝
 
