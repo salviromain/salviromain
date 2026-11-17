@@ -31,7 +31,7 @@ I created efficient, pre-joined BigQuery views for the agent and the team’s Do
 ### 2. Schnuck Markets · Automated Ad-Proofing Workflow
 I built a workflow that checks promotional PDFs against source pricing data, combining document extraction, structured data validation, automated matching, and an AI-assisted discrepancy audit. Since early November, it has processed recurring batches of promotional ads for Marketing.
 
-The Marketing manager estimated that proofing time fell from **100+ hours to about 5 hours per week**. API costs are about **$4 per week**. In testing across seven PDFs, the workflow caught all planted price and size errors; adding embedded PDF text to the audit context also resolved an initial gap in symbol-error detection. The workflow is being expanded to cover more ad types.
+The Marketing manager estimated that proofing time fell from **100+ hours to about 5 hours per week**. API costs are about **$4 per week**. In testing across seven PDFs, the workflow caught all **33 planted price and size errors**; adding embedded PDF text to the audit context fixed the initial symbol-error detection gap. The workflow is being expanded to cover more ad types.
 
 **Tools:** Python · Gemini 2.5 Pro and Flash · PyMuPDF · Pydantic · Jupyter · Google Cloud Platform · scheduled GCP runs · Google Drive API · Google Sheets API · Google Chat
 
