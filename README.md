@@ -10,25 +10,32 @@ I build practical AI and data science systems, from LLM-powered analytics in ret
 
 ### Brief Project Intros
 
-- **Schnuck Markets · Conversational analytics:** built the company’s most-used Gemini Enterprise agent in October 2026 (**18 users, 219 sessions**) over billions of point-of-sale rows; reduced query costs by **more than 90%**.
-- **Schnuck Markets · Ad proofing:** automated a **100+ hour** weekly manual process to about **one hour** for 30 PDFs, at roughly **$3/week** in API costs.
+- **Schnuck Markets · Conversational analytics:** built the company’s most-used Gemini Enterprise agent in October 2026 (**18 monthly active users, 219 sessions**) over billions of point-of-sale rows; reduced data wait from one day to 15 minutes and BigQuery query costs from about **$1 to under $0.10**.
+- **Schnuck Markets · Ad proofing:** reduced a Marketing manager-estimated **100+ hours** of weekly proofing to about **5 hours**, processing recurring promotional PDFs for roughly **$4/week** in API costs.
 - **Published research · Pirouette Software · MCC:** co-authored work published in the **AGI 2026 proceedings** (Springer LNAI 16855).
 - **Causal inference · Empathetic AI:** estimated a **+0.73–0.77 point** average effect on a 1–7 attachment scale, with effects varying across users.
 - **Applied ML · Age estimation:** finished **top 2 of 200** students in the course leaderboard.
 
 ## Featured projects
 
-### 1. Schnuck Markets · Conversational Analytics Agent
-I built a conversational agent that lets Asset Protection analysts ask questions in plain English across billions of retail point-of-sale rows. In October 2026, it became the company’s most-used agent in Gemini Enterprise, with **18 distinct users and 219 sessions**. It queries BigQuery data refreshed every 15 minutes, replacing a third-party platform with a one-day delay. To keep queries efficient at this scale, I created ad-hoc pre-joined BigQuery views using partitioning, filters, and complex SQL lookback queries; these views also power the team’s Domo dashboard. I added a SELECT-only SQL guardrail, validated 40 stakeholder questions (improving from 35/40 to 40/40 with team-specific terminology), and reduced query costs by more than 90%, from about $1 to under $0.10. I also led stakeholder adoption meetings.
+**Data Science & Gen AI Intern · Schnuck Markets** — Remote, St. Louis · June 2026–Present  
+I owned both projects end to end: building and deploying the systems, leading demos, training analysts, writing user guides, and presenting progress to managers every two weeks.
 
-**Tools:** Python · Google ADK · Vertex AI · Gemini Enterprise · BigQuery · SQL · Domo · Google Sheets API
+### 1. Schnuck Markets · POS Exception Agent
+I built a conversational analytics agent for Asset Protection that lets analysts investigate point-of-sale exceptions in natural language across billions of retail transactions. It replaced a third-party platform with a one-day data delay; the agent queries BigQuery data refreshed every 15 minutes. In October 2026, it was the company’s most-used Gemini Enterprise agent, with **18 monthly active users and 219 sessions**.
+
+I created efficient, pre-joined BigQuery views for the agent and the team’s Domo dashboard, and added safeguards for read-only analysis. In a 40-question stakeholder evaluation, prompt changes addressing team terminology improved results from **35/35 standard questions** to **40/40 overall**. I compared Gemini 2.5 Pro and Flash on quality, latency, and cost, then shipped Flash. BigQuery costs per query fell from about **$1 to under $0.10**.
+
+**Tools:** Python · Google ADK · Vertex AI · Gemini Enterprise · Gemini 2.5 · BigQuery · SQL · Google Sheets API · GCP logging
 
 ### 2. Schnuck Markets · Automated Ad-Proofing Workflow
-I built an automated workflow to proof **30 weekly ad PDFs** against ground-truth data. It reduced an estimated **100+ hours** of manual proofing to about **one hour per week**, at approximately **$3/week** in API costs. In testing, it caught all 33 planted price and size errors across seven PDFs. I’m expanding it to cover more ad types and led stakeholder adoption meetings with Marketing.
+I built a workflow that checks promotional PDFs against source pricing data, combining document extraction, structured data validation, automated matching, and an AI-assisted discrepancy audit. Since early November, it has processed recurring batches of promotional ads for Marketing.
 
-**Tools:** Python · Google Cloud scheduled notebooks · Pydantic · LLM APIs · Google Drive and Sheets APIs · email automation
+The Marketing manager estimated that proofing time fell from **100+ hours to about 5 hours per week**. API costs are about **$4 per week**. In testing across seven PDFs, the workflow caught all planted price and size errors; adding embedded PDF text to the audit context also resolved an initial gap in symbol-error detection. The workflow is being expanded to cover more ad types.
 
-> Schnuck Markets source code, data, and implementation details are company property, so I share this work only at a high level.
+**Tools:** Python · Gemini 2.5 Pro and Flash · PyMuPDF · Pydantic · Jupyter · Google Cloud Platform · scheduled GCP runs · Google Drive API · Google Sheets API · Google Chat
+
+> Schnuck Markets source code, data, and implementation details are company property, so I share this work at a high level.
 
 ### 3. [Discovering Machine Correlates of Consciousness](https://github.com/salviromain/mccviahat) 🧠
 This research was part of my AI/ML Research Internship at Pirouette Software. We studied whether hardware anomaly traces from LLM inference differ between emotional and neutral prompts, while controlling for workload and thermal confounds. In our experiments, several power-throttle features for Llama 3.1 70B were statistically significant after Bonferroni correction; results for Llama 2 7B were not distinguishable from chance. The work was published in the AGI 2026 proceedings in Springer’s Lecture Notes in Artificial Intelligence (LNAI), volume 16855, pages 237–255. [Read the paper on arXiv](https://arxiv.org/abs/2608.28824).
@@ -62,7 +69,7 @@ An interactive MATLAB application comparing clustering methods across high-dimen
 
 ## Experience
 
-- **Data Science & Gen AI Intern · Schnuck Markets** — building internal AI-enabled analytics tools.
+- **Data Science & Gen AI Intern · Schnuck Markets** — owned the end-to-end delivery and stakeholder adoption of internal AI-enabled analytics tools.
 - **AI/ML Research Intern · Pirouette Software** — studied hardware signals produced during LLM inference.
 - **Data Science · MEC** — analyzed 500,000+ operational records, built Apache Airflow ETL pipelines, and created SQL-powered dashboards.
 
