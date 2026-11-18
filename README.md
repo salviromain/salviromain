@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
-I build AI and data science tools for real-world problems. I’m pursuing dual master’s degrees in Computer Science at the **University of Illinois Chicago** and Data Science & Engineering at **Politecnico di Torino**.
+I build AI and data science tools for real-world problems. I’m pursuing dual master’s degrees in Computer Science at the **University of Illinois Chicago** and Data Science & Engineering at **Politecnico di Torino**. Currently working at **Schnuck Markets** as **Data Science & Gen AI Intern** from May 2026.
 
 ## ✨ At a glance
 
