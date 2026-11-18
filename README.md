@@ -1,88 +1,80 @@
 <h1 align="center">Hi, I'm Romain 👋</h1>
+
 <p align="center">
-  <strong>Data Scientist & AI Engineer · LLM Systems · Causal Inference · Scalable Analytics</strong><br>
-  📍 Chicago, IL · <a href="https://www.linkedin.com/in/romain-salvi-dsml/">LinkedIn</a> · <a href="https://github.com/salviromain">GitHub</a>
+  <strong>Data Scientist · AI Engineer · LLM Systems</strong><br>
+  Chicago, IL · <a href="https://www.linkedin.com/in/romain-salvi-dsml/">LinkedIn</a> · <a href="https://github.com/salviromain">GitHub</a>
 </p>
 
-## About Myself
+<p align="center">
+  <img src="https://img.shields.io/badge/Generative_AI-6C4CE3?style=flat-square" alt="Generative AI">
+  <img src="https://img.shields.io/badge/Data_Science-168AAD?style=flat-square" alt="Data Science">
+  <img src="https://img.shields.io/badge/Responsible_AI-2A9D8F?style=flat-square" alt="Responsible AI">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+</p>
 
-I build practical AI and data science systems, from LLM-powered analytics in retail to causal studies of human-AI interaction and research on LLM inference. I’m completing dual master’s degrees in Computer Science and Data Science & Engineering at the University of Illinois Chicago and Politecnico di Torino.
+I build AI and data science tools for real-world problems. I’m pursuing dual master’s degrees in Computer Science at the **University of Illinois Chicago** and Data Science & Engineering at **Politecnico di Torino**.
 
-### Brief Project Intros
+## ✨ At a glance
 
-- **Schnuck Markets · Conversational analytics:** built the company’s most-used Gemini Enterprise agent in October 2026 (**18 monthly active users, 219 sessions**) over billions of point-of-sale rows; reduced data wait from one day to 15 minutes and BigQuery query costs from about **$1 to under $0.10**.
-- **Schnuck Markets · Ad proofing:** reduced a Marketing manager-estimated **100+ hours** of weekly proofing to about **5 hours**, processing recurring promotional PDFs for roughly **$4/week** in API costs.
-- **Published research · Pirouette Software · MCC:** co-authored work published in the **AGI 2026 proceedings** (Springer LNAI 16855).
-- **Causal inference · Empathetic AI:** estimated a **+0.73–0.77 point** average effect on a 1–7 attachment scale, with effects varying across users.
-- **Applied ML · Age estimation:** finished **top 2 of 200** students in the course leaderboard.
+| | Impact |
+|---|---|
+| 🛒 **Retail AI agent** | 18 monthly users · 219 sessions · data delay cut from 1 day to 15 minutes |
+| ⚡ **Query efficiency** | BigQuery cost reduced from about $1 to under $0.10 per query |
+| 🧾 **Ad proofing** | 100+ → ~5 hours/week · about $4/week in API costs |
+| 📄 **Research** | Co-authored paper published in the AGI 2026 proceedings |
 
-## Featured projects
+## 🚀 Selected projects
 
-**Data Science & Gen AI Intern · Schnuck Markets** — Remote, St. Louis · June 2026–Present  
-I owned both projects end to end: building and deploying the systems, leading demos, training analysts, writing user guides, and presenting progress to managers every two weeks.
+**Data Science & Gen AI Intern · Schnuck Markets** · Remote, St. Louis · Jun 2026–Present  
+I owned both projects end to end—building, demos, analyst training, guides, and biweekly manager updates.
 
-### 1. Schnuck Markets · POS Exception Agent
-I built a conversational analytics agent for Asset Protection that lets analysts investigate point-of-sale exceptions in natural language across billions of retail transactions. It replaced a third-party platform with a one-day data delay; the agent queries BigQuery data refreshed every 15 minutes. In October 2026, it was the company’s most-used Gemini Enterprise agent, with **18 monthly active users and 219 sessions**.
+### 🛒 POS Exception Agent · Asset Protection
+Natural-language analytics across billions of point-of-sale rows. Built efficient BigQuery views and read-only safeguards; the agent became the company’s most-used Gemini Enterprise agent in October 2026 (**18 monthly users, 219 sessions**). Prompt updates for Asset Protection terminology improved evaluation results from **35/35 standard questions to 40/40**. Shipped Gemini 2.5 Flash after comparing quality, latency, and cost.
 
-I created efficient, pre-joined BigQuery views for the agent and the team’s Domo dashboard, and added safeguards for read-only analysis. In a 40-question stakeholder evaluation, prompt changes addressing team terminology improved results from **35/35 standard questions** to **40/40 overall**. I compared Gemini 2.5 Pro and Flash on quality, latency, and cost, then shipped Flash. BigQuery costs per query fell from about **$1 to under $0.10**.
+**Tools:** Python · Google ADK · Vertex AI · Gemini Enterprise · BigQuery · SQL · Domo · Google Sheets API
 
-**Tools:** Python · Google ADK · Vertex AI · Gemini Enterprise · Gemini 2.5 · BigQuery · SQL · Google Sheets API · GCP logging
+### 🧾 Automated Ad-Proofing · Marketing
+Automated checks of promotional PDFs against source pricing data. Marketing estimated proofing time fell from **100+ to about 5 hours/week**; API costs are about **$4/week**. Caught **33/33 planted price and size errors** in testing; adding embedded PDF text improved symbol-error detection. Expanding to more ad types.
 
-### 2. Schnuck Markets · Automated Ad-Proofing Workflow
-I built a workflow that checks promotional PDFs against source pricing data, combining document extraction, structured data validation, automated matching, and an AI-assisted discrepancy audit. Since early November, it has processed recurring batches of promotional ads for Marketing.
+**Tools:** Python · Gemini 2.5 · PyMuPDF · Pydantic · Jupyter · GCP · scheduled runs · Drive/Sheets APIs · Google Chat
 
-The Marketing manager estimated that proofing time fell from **100+ hours to about 5 hours per week**. API costs are about **$4 per week**. In testing across seven PDFs, the workflow caught all **33 planted price and size errors**; adding embedded PDF text to the audit context fixed the initial symbol-error detection gap. The workflow is being expanded to cover more ad types.
+> Schnuck Markets code, data, and implementation details are company property; I share this work at a high level.
 
-**Tools:** Python · Gemini 2.5 Pro and Flash · PyMuPDF · Pydantic · Jupyter · Google Cloud Platform · scheduled GCP runs · Google Drive API · Google Sheets API · Google Chat
+### 🧠 [Discovering Machine Correlates of Consciousness](https://github.com/salviromain/mccviahat)
+Pirouette Software research on hardware signals during LLM inference. Published in the **AGI 2026 proceedings** (Springer LNAI 16855). [Paper](https://arxiv.org/abs/2608.28824)
 
-> Schnuck Markets source code, data, and implementation details are company property, so I share this work at a high level.
-
-### 3. [Discovering Machine Correlates of Consciousness](https://github.com/salviromain/mccviahat) 🧠
-This research was part of my AI/ML Research Internship at Pirouette Software. We studied whether hardware anomaly traces from LLM inference differ between emotional and neutral prompts, while controlling for workload and thermal confounds. In our experiments, several power-throttle features for Llama 3.1 70B were statistically significant after Bonferroni correction; results for Llama 2 7B were not distinguishable from chance. The work was published in the AGI 2026 proceedings in Springer’s Lecture Notes in Artificial Intelligence (LNAI), volume 16855, pages 237–255. [Read the paper on arXiv](https://arxiv.org/abs/2608.28824).
-
-**Focus:** LLM systems · experimental design · statistical analysis · Linux performance counters  
 **Tools:** Python · llama.cpp · Docker · Linux `perf` · CloudLab
 
-### 4. [Does Empathetic AI Language Cause User Attachment?](https://github.com/salviromain/llm-empathy-causal-study) 💬
-A causal-inference study asking whether more empathetic chatbot responses increase users’ immediate emotional attachment. The project develops a matching strategy around prompt meaning and conversation context, and considers model differences and potential mediating mechanisms. Across semantic-matching and doubly robust analyses, the estimated average effect was **+0.73–0.77 points** on the 1–7 attachment-score scale, with estimated effects varying across users.
+### 💬 [Does Empathetic AI Language Cause User Attachment?](https://github.com/salviromain/llm-empathy-causal-study)
+Causal study estimating a **+0.73–0.77 point** average effect on a 1–7 attachment scale, with effects varying across users.
 
-**Focus:** causal inference · LLM evaluation · semantic matching · research design  
-**Tools:** Python · Sentence Transformers (MPNet) · scikit-learn · pandas · Mistral Small
+**Tools:** Python · Sentence Transformers · scikit-learn · pandas · Mistral Small
 
-### 5. [Mitigating Sycophancy in LLMs](https://github.com/salviromain/RLHF_sycophancy) 🤖
-An end-to-end pipeline for reducing sycophantic model behavior through supervised fine-tuning. It covers data preparation, critique and revision, LoRA fine-tuning of Llama 3 8B, benchmark evaluation, and a human preference workflow.
+### 🤖 [Mitigating Sycophancy in LLMs](https://github.com/salviromain/RLHF_sycophancy)
+Fine-tuning and evaluation pipeline exploring ways to reduce sycophantic model behavior.
 
-**Focus:** LLM fine-tuning · RLHF · LoRA · automated and human evaluation  
-**Tools:** Python · PyTorch · Hugging Face Transformers · TRL · PEFT · Unsloth · Google Apps Script
+**Tools:** Python · PyTorch · Transformers · TRL · PEFT · Unsloth
 
-### 6. [Speaker Age Estimation](https://github.com/salviromain/Age-Estimation-Regression) 🎙️
-A predictive modeling project estimating a speaker’s age from data. My Ridge model achieved a public evaluation RMSE of **9.056**, placing among the best results. I placed in the **top two out of 200 students** in the course leaderboard.
+### 🎙️ [Speaker Age Estimation](https://github.com/salviromain/Age-Estimation-Regression)
+Ridge regression model achieved **9.056 RMSE**; ranked **top 2 of 200** in the course leaderboard.
 
-**Focus:** regression · feature engineering · predictive modeling  
-**Tools:** Python · pandas · NumPy · librosa · scikit-learn · Matplotlib
+**Tools:** Python · pandas · NumPy · librosa · scikit-learn
 
-### 7. [Spectral Clustering](https://github.com/salviromain/Spectral-Clustering) 🔎
-An interactive MATLAB application comparing clustering methods across high-dimensional, nonlinear datasets. On the modified Iris dataset, normalized-Laplacian spectral clustering achieved an ARI of **0.77**; K-means with k=3 achieved **0.73**.
+### 🔎 [Spectral Clustering](https://github.com/salviromain/Spectral-Clustering)
+Interactive MATLAB app; normalized-Laplacian spectral clustering reached **0.77 ARI** vs. **0.73** for K-means on modified Iris data.
 
-**Focus:** unsupervised learning · spectral methods · MATLAB · computational algebra  
-**Tools:** MATLAB App Designer · `eigs` · inverse power method · deflation · DBSCAN · K-means
+**Tools:** MATLAB App Designer · `eigs` · inverse power method · DBSCAN · K-means
 
-## Experience
+## 🧰 Toolbox
 
-- **Data Science & Gen AI Intern · Schnuck Markets** — owned the end-to-end delivery and stakeholder adoption of internal AI-enabled analytics tools.
-- **AI/ML Research Intern · Pirouette Software** — studied hardware signals produced during LLM inference.
-- **Data Science · MEC** — analyzed 500,000+ operational records, built Apache Airflow ETL pipelines, and created SQL-powered dashboards.
+**AI & ML** · Vertex AI · Google ADK · Gemini · PyTorch · scikit-learn · EconML  
+**Data & cloud** · GCP · BigQuery · SQL · Apache Spark · Hadoop · Domo  
+**APIs & automation** · Google Drive/Sheets APIs · MCP · scheduled GCP runs · Google Apps Script  
+**Development** · Python · Jupyter · Pydantic · Apache Airflow · Docker · Linux · Git  
+**Also** · MATLAB · Java · JavaScript · pandas · NumPy
 
-## Toolbox 🧰
+## 🤝 Connect
 
-**Languages:** Python · SQL · MATLAB · Java · JavaScript  
-**AI & ML:** Vertex AI · Google ADK · Gemini Enterprise · PyTorch · scikit-learn · pandas · NumPy · EconML  
-**Data & Cloud:** Google Cloud Platform (GCP) · BigQuery · Apache Spark · Hadoop · Domo  
-**APIs & Automation:** REST APIs · Google Sheets API · Google Drive API · Model Context Protocol (MCP) · scheduled GCP runs · Google Apps Script  
-**Development:** Jupyter · Pydantic · Apache Airflow · Docker · Linux · Git
-
-## Connect 🤝
-
-Interested in Data Science and AI Engineering opportunities, applied research, and responsible AI.
+Open to Data Science and AI Engineering opportunities, applied research, and responsible AI.
 
 [LinkedIn](https://www.linkedin.com/in/romain-salvi-dsml/) · [GitHub](https://github.com/salviromain)
