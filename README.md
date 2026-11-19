@@ -18,7 +18,7 @@ I build AI and data science tools for real-world problems. I’m pursuing dual m
 
 | | Impact |
 |---|---|
-| 🛒 **Retail AI agent** | 18 monthly users · 219 sessions · data delay cut from 1 day to 15 minutes |
+| 🛒 **Retail AI agent** | 18 monthly users · 219 monthly sessions · data delay cut from 1 day to 15 minutes |
 | 🧾 **Ad proofing** | 100+ hours/week → ~5 hours/week · ~$4/week in API costs |
 | 📄 **Research** | Co-authored paper published in the AGI 2026 proceedings |
 
