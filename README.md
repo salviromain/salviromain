@@ -64,13 +64,19 @@ Interactive MATLAB app; normalized-Laplacian spectral clustering reached **0.77 
 
 **Tools:** MATLAB App Designer · `eigs` · inverse power method · DBSCAN · K-means
 
-## 🧰 Toolbox
+## 🧰 Languages & Tools
 
-**AI & ML** · Vertex AI · Google ADK · Gemini · PyTorch · scikit-learn · EconML  
-**Data & cloud** · GCP · BigQuery · SQL · Apache Spark · Hadoop · Domo  
-**APIs & automation** · Google Drive/Sheets APIs · MCP · scheduled GCP runs · Google Apps Script  
-**Development** · Python · Jupyter · Pydantic · Apache Airflow · Docker · Linux · Git  
-**Also** · MATLAB · Java · JavaScript · pandas · NumPy
+**Languages**  
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square" alt="SQL"> <img src="https://img.shields.io/badge/MATLAB-E16737?style=flat-square" alt="MATLAB"> <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript">
+
+**AI & Machine Learning**  
+<img src="https://img.shields.io/badge/Vertex%20AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Vertex AI"> <img src="https://img.shields.io/badge/Google%20ADK-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google ADK"> <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini"> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"> <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas"> <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"> <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"> <img src="https://img.shields.io/badge/EconML-204B7B?style=flat-square" alt="EconML">
+
+**Cloud, Data & APIs**  
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud"> <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white" alt="BigQuery"> <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white" alt="Apache Spark"> <img src="https://img.shields.io/badge/Hadoop-66CCFF?style=flat-square&logo=apachehadoop&logoColor=white" alt="Hadoop"> <img src="https://img.shields.io/badge/Domo-8B5CF6?style=flat-square&logo=domo&logoColor=white" alt="Domo"> <img src="https://img.shields.io/badge/Google%20Drive%20API-4285F4?style=flat-square&logo=googledrive&logoColor=white" alt="Google Drive API"> <img src="https://img.shields.io/badge/Google%20Sheets%20API-34A853?style=flat-square&logo=googlesheets&logoColor=white" alt="Google Sheets API"> <img src="https://img.shields.io/badge/REST%20APIs-4B5563?style=flat-square" alt="REST APIs"> <img src="https://img.shields.io/badge/MCP-7C3AED?style=flat-square" alt="MCP">
+
+**Development & Automation**  
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"> <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white" alt="Apache Airflow"> <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" alt="Google Apps Script"> <img src="https://img.shields.io/badge/Scheduled%20GCP%20runs-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Scheduled GCP runs"> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=white" alt="Linux"> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
 
 ## 🤝 Connect
 
